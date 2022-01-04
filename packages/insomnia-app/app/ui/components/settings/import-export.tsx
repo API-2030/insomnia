@@ -72,10 +72,7 @@ export const ImportExport: FC<Props> = ({ hideSettingsModal }) => {
   return (
     <div data-testid="import-export-tab">
       <div className="no-margin-top">
-        Import format will be automatically detected.
-        <HelpTooltip className="space-left">
-          Supported formats include: {importers.map(importer => importer.name).join(', ')}
-        </HelpTooltip>
+        Import format will be automatically detected. Supported formats include: {importers.map(importer => importer.name).join(', ')}
       </div>
       <p>
         Your format isn't supported? <Link href={docsImportExport}>Add Your Own</Link>.
