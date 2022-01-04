@@ -15,7 +15,6 @@ import { DropdownButton } from '../base/dropdown/dropdown-button';
 import { DropdownDivider } from '../base/dropdown/dropdown-divider';
 import { DropdownItem } from '../base/dropdown/dropdown-item';
 import { Link } from '../base/link';
-import { HelpTooltip } from '../help-tooltip';
 import { ExportRequestsModal } from '../modals/export-requests-modal';
 import { showModal, showPrompt } from '../modals/index';
 
