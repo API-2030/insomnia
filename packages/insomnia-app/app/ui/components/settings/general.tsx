@@ -26,7 +26,6 @@ import { initNewOAuthSession } from '../../../network/o-auth-2/misc';
 import * as globalActions from '../../redux/modules/global';
 import { Link } from '../base/link';
 import { CheckForUpdatesButton } from '../check-for-updates-button';
-import { HelpTooltip } from '../help-tooltip';
 import { BooleanSetting } from './boolean-setting';
 import { EnumSetting } from './enum-setting';
 import { MaskedSetting } from './masked-setting';
